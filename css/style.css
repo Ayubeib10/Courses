@@ -163,3 +163,52 @@ a:hover{
     color: green;
 
 }
+
+
+/*students  styles*/
+.student-description {
+    font-size: large;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.student-title {
+    font-size: 27px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.student-card {
+    color: red;
+    display: inline-flex;
+    flex-direction: column;
+    border: 12px solid#990fd2;
+    margin: 10px;
+    padding: 24px;
+    border-radius: 40% 0%;
+    background-color: #0b12fb38;
+}
+
+.student-img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 28%;
+    height: 50%;
+    align-self: center;
+    box-shadow: 4px 2px 3px 1px #888888;
+    margin: 29px 0;
+}
+
+#student-section {
+    color: blue;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.custom-ul {
+    align-self: center;
+    direction: ltr;
+    list-style-type: decimal;
+}
